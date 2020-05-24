@@ -48,6 +48,12 @@
             </reports>
           </reportSet>
         </reportSets>
+        < configuration >
+					< includeTestSourceDirectory > true </ includeTestSourceDirectory >
+					< configLocation > $ {basedir} /checkstyle.xml</ configLocation >
+					
+				</ configuration >
+      
       </plugin>
 
       <plugin>
